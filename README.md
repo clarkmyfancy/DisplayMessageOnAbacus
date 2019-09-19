@@ -6,3 +6,4 @@ I bought an old chinese abacus (the japanese kind are different) at a thrift sto
 ## Usage
 This program will prompt the user for a phrase (valid inputs being letters and spaces) and output an ascii image of what the abacus should look like to display that phrase. 
 
+(Written in python3)
