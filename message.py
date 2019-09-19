@@ -1,5 +1,5 @@
 def showAbacus(number):
-    reversedNumber = str(number)[len(str(number))::-1]
+    reversedNumber = (str(number)[len(str(number))::-1])
     abacusLine = ""
     for i, value in enumerate(reversedNumber): 
         digit = int(value)
@@ -26,9 +26,9 @@ def showAbacus(number):
         print('----------')
         print(abacusLine)
     print('---------')
-    return
 
-def main():
+def convertPhrase(word):
+    phrase = word.lower()
     letters = {
         ' ': 2,
         'e': 3,
@@ -58,7 +58,6 @@ def main():
         'j': 103,
         'z': 107
     }
-    phrase = "pat with a t"
     result = 1
     for character in phrase:
         characterValue = letters[character]
@@ -66,7 +65,7 @@ def main():
     return result
 
 if __name__ == '__main__':
-    result = main()
-    print(showAbacus(result))
-
-
+    phrase = input("What phrase would you like to convert?")
+    numberRepresentation = convertPhrase(phrase)
+    print("Using this encoding scheme, " + phrase + " on an abacus would be..")
+    showAbacus(numberRepresentation)
