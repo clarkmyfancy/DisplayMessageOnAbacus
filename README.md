@@ -1,6 +1,7 @@
 # DisplayMessageOnAbacus
 
+## Why does this exist?
+
 ## Usage
 
-## Why does this exist?
 
