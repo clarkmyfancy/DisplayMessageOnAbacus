@@ -58,7 +58,9 @@ def convertPhrase(word):
         'j': 103,
         'z': 107
     }
-    result = 1
+    multiplicativeIdenity = 1
+    result = multiplicativeIdenity
+    
     for character in phrase:
         characterValue = letters[character]
         result *= characterValue
