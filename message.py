@@ -29,6 +29,7 @@ def showAbacus(number):
 
 def convertPhrase(word):
     phrase = word.lower()
+    # assig each letter (including space) a prime number. The more prevelent the letter in words, the lower the prime number. In this implementation, I rearranged some of the values to make the specific message I wanted to encode fit in a number less than ~10e12.
     letters = {
         ' ': 2,
         'e': 3,
