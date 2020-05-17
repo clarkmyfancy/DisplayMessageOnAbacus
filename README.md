@@ -18,3 +18,5 @@ This program will prompt the user for a phrase (valid inputs being letters and s
 
 #### Secret message encoded into the abacus
 ![abacus with message](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/abacus_with_encrypted_message500x600.jpeg?raw=true)
+
+## The message is to attack at dawn! Ready yourselves men, for tonight we rest, but at dawn, we fight.
