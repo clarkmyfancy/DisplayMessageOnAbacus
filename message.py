@@ -4,28 +4,28 @@ def showAbacus(number):
     for i, value in enumerate(reversedNumber): 
         digit = int(value)
         if (digit == 0):
-            abacusLine = 'oo | ooooo'
+            abacusLine = '|oo | ooooo|'
         elif (digit == 1):
-            abacusLine = 'oo |o oooo'
+            abacusLine = '|oo |o oooo|'
         elif (digit == 2):
-            abacusLine = 'oo |oo ooo'
+            abacusLine = '|oo |oo ooo|'
         elif (digit == 3):
-            abacusLine = 'oo |ooo oo'
+            abacusLine = '|oo |ooo oo|'
         elif (digit == 4):
-            abacusLine = 'oo |oooo o'
+            abacusLine = '|oo |oooo o|'
         elif (digit == 5):
-            abacusLine = 'o o| ooooo'
+            abacusLine = '|o o| ooooo|'
         elif (digit == 6):
-            abacusLine = 'o o|o oooo'
+            abacusLine = '|o o|o oooo|'
         elif (digit == 7):
-            abacusLine = 'o o|oo ooo'
+            abacusLine = '|o o|oo ooo|'
         elif (digit == 8):
-            abacusLine = 'o o|ooo oo'
+            abacusLine = '|o o|ooo oo|'
         elif (digit == 9):
-            abacusLine = 'o o|oooo o'
-        print('----------')
+            abacusLine = '|o o|oooo o|'
+        print('------------')
         print(abacusLine)
-    print('---------')
+    print('-----------')
 
 def convertPhrase(word):
     phrase = word.lower()
