@@ -68,8 +68,7 @@ def convertPhrase(word):
     return result
 
 if __name__ == '__main__':
-    print("TODO: Add error handling with user input!")
-    phrase = input("What phrase would you like to convert?")
+    phrase = input("What phrase would you like to convert? ")
     numberRepresentation = convertPhrase(phrase)
     print("Using this encoding scheme, " + phrase + " on an abacus would be..")
     showAbacus(numberRepresentation)
