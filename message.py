@@ -71,5 +71,5 @@ if __name__ == '__main__':
     phrase = input("What phrase would you like to convert? ")
     numberRepresentation = convertPhrase(phrase)
     print()
-    print("Public Key Below")
+    print("Encrypted Message Below")
     showAbacus(numberRepresentation)
