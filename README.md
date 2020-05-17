@@ -7,3 +7,6 @@ I bought an old chinese abacus at a thrift store a while back and was looking fo
 This program will prompt the user for a phrase (valid inputs being letters and spaces) and output an ascii image of what the abacus should look like to display that phrase. 
 
 (Written in python3)
+
+![program prompt and output](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/abacus_UI_prompt_and_output.jpg)
+![abacus with encrypted message](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/abacus_with_encrypted_message.jpg)
