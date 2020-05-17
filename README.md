@@ -8,5 +8,5 @@ This program will prompt the user for a phrase (valid inputs being letters and s
 
 (Written in python3)
 
-![program prompt and output](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/abacus_UI_prompt_and_output.jpg?raw=true)
+![program prompt and output](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/abacus_UI_prompt_and_output500x600.jpeg?raw=true)
 ![abacus with message](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/abacus_with_encrypted_message500x600.jpeg?raw=true)
