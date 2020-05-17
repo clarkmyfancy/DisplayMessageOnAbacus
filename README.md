@@ -11,5 +11,10 @@ This program will prompt the user for a phrase (valid inputs being letters and s
 2) Navigate to the directory you just cloned/forked (using Z shell, Bash, PowerShell, etc.)
 3) Run `python message.py`
 
+### Screenshots of program
+
+#### Program prompt and output
 ![program prompt and output](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/abacus_UI_prompt_and_output500x600.jpeg?raw=true)
+
+#### Secret message encoded into the abacus
 ![abacus with message](https://bigpictureprogrammer.com/wp-content/uploads/2020/05/abacus_with_encrypted_message500x600.jpeg?raw=true)
