@@ -35,25 +35,25 @@ def convertPhrase(word):
         'e': 3,
         't': 5,
         'a': 7,
-        'o': 11,
-        'i': 13,
+        'w': 11,
+        'c': 13,
         'n': 19,
         's': 23,
-        'r': 29,
+        'k': 29,
         'h': 31,
         'd': 37,
         'l': 41,
         'u': 43,
-        'c': 47,
+        'i': 47,
         'm': 53,
         'f': 59,
         'y': 61,
-        'w': 67,
+        'o': 67,
         'g': 71,
         'p': 73,
         'b': 79,
         'v': 83, 
-        'k': 89,
+        'r': 89,
         'x': 97,
         'q': 101,
         'j': 103,
@@ -70,5 +70,6 @@ def convertPhrase(word):
 if __name__ == '__main__':
     phrase = input("What phrase would you like to convert? ")
     numberRepresentation = convertPhrase(phrase)
-    print("Using this encoding scheme, " + phrase + " on an abacus would be..")
+    print()
+    print("Public Key Below")
     showAbacus(numberRepresentation)
